@@ -1,18 +1,9 @@
 var app = new Vue({
         el: '#root',
         data: {
-            message: "Click me",
+            message: "Titolo Generato da VUE.js",
             imgSrc: "img/img.jpg",
-            miaClasse: ''
         },
-        methods: {
-            clickBlur: function() {
-                if (this.miaClasse == '') {
-                    this.miaClasse = 'blur';
-                } else if (this.miaClasse = 'blur') {
-                    this.miaClasse = '';
-                }
-            }
-        }
+        
     }
 );
