@@ -4,7 +4,6 @@ var app = new Vue({
             message: "Titolo Generato da VUE.js",
             imgSrc: "img/img.jpg",
             imgAlt: "immagine generata da VUE.js"
-        },
-        
+        }
     }
 );
