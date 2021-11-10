@@ -21,11 +21,12 @@ h1 {
     transform: translate(-50%, -50%);
     z-index: 1;
     cursor: pointer;
-    background-color: tomato;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 20px 40px;
     border-radius: 50px;
     transition: all .1s ease;
+    mix-blend-mode: screen;
 }
 
 h1:hover {
@@ -35,8 +36,8 @@ h1:hover {
 
 h1:active {
     background-color: transparent;
-    border: 5px solid tomato;
-    color: tomato;
+    border: 5px solid white;
+    color: white;
 }
 
 img {
